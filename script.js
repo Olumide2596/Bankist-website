@@ -194,7 +194,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 });
 sections.forEach(section => {
   sectionObserver.observe(section);
-  // section.classList.add('section--hidden');
+  section.classList.add('section--hidden');
 });
 
 // LAZY LOADING
