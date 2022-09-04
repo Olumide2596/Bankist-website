@@ -165,6 +165,11 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 //   if (window.scrollY > initialCords.top) nav.classList.add('sticky');
 //   else nav.classList.remove('sticky');
 // });
+// const initialCords = section1.getBoundingClientRect();
+// window.addEventListener('scroll', function () {
+//   if (window.scrollY > initialCords.top) nav.classList.add('sticky');
+//   else nav.classList.remove('sticky');
+// });
 
 const navHeight = nav.getBoundingClientRect().height;
 const stickyNav = function (entries) {
